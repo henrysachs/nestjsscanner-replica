@@ -1,0 +1,18 @@
+[
+ {
+  "line": "const AWS_KEY=\"AKIAIOSFODNN7EXAMPLE\"",
+  "lineNumber": 1,
+  "offender": "AKIAIOSFODNN7EXAMPLE",
+  "commit": "1a25b6964f4439e06e69905c6bc17d2dea5bf6b6",
+  "repo": "nestjsscanner-replica",
+  "repoURL": "",
+  "leakURL": "",
+  "rule": "AWS",
+  "commitMessage": "commit for the tool\n",
+  "author": "henrysachs",
+  "email": "henrysachs@gmail.com",
+  "file": "main.go",
+  "date": "2020-12-24T00:43:17+01:00",
+  "tags": ""
+ }
+]
