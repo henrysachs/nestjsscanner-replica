@@ -1,0 +1,50 @@
+[
+ {
+  "line": "const AWS_KEY=\"REDACTED\"",
+  "lineNumber": 1,
+  "offender": "REDACTED",
+  "commit": "1ec616839db72b76f91c15e588e87f55d5a55f59",
+  "repo": "nestjsscanner-replica",
+  "repoURL": "",
+  "leakURL": "",
+  "rule": "AWS",
+  "commitMessage": "just for the tool\n",
+  "author": "henrysachs",
+  "email": "henrysachs@gmail.com",
+  "file": "main.go",
+  "date": "2020-12-24T23:55:39+01:00",
+  "tags": ""
+ },
+ {
+  "line": "  \"line\": \"const AWS_KEY=\\\"REDACTED\\\"\",",
+  "lineNumber": 3,
+  "offender": "REDACTED",
+  "commit": "1ec616839db72b76f91c15e588e87f55d5a55f59",
+  "repo": "nestjsscanner-replica",
+  "repoURL": "",
+  "leakURL": "",
+  "rule": "AWS",
+  "commitMessage": "just for the tool\n",
+  "author": "henrysachs",
+  "email": "henrysachs@gmail.com",
+  "file": "my-report.json",
+  "date": "2020-12-24T23:55:39+01:00",
+  "tags": ""
+ },
+ {
+  "line": "  \"offender\": \"REDACTED\",",
+  "lineNumber": 5,
+  "offender": "REDACTED",
+  "commit": "1ec616839db72b76f91c15e588e87f55d5a55f59",
+  "repo": "nestjsscanner-replica",
+  "repoURL": "",
+  "leakURL": "",
+  "rule": "AWS",
+  "commitMessage": "just for the tool\n",
+  "author": "henrysachs",
+  "email": "henrysachs@gmail.com",
+  "file": "my-report.json",
+  "date": "2020-12-24T23:55:39+01:00",
+  "tags": ""
+ }
+]

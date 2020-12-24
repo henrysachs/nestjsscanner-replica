@@ -7,6 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
+    const AWS_KEY = 'AKIAIOSFODNN7EXAMPLE';
     return this.appService.getHello();
   }
 }
