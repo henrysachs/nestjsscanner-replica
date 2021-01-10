@@ -17,8 +17,8 @@ export class SCMConsumer {
     if (result.code !== 0) {
       console.log('leaks found');
       let rawdata = fs.readFileSync('my-report.json');
-      let student = JSON.parse(rawdata);
-      console.log(student);
+      let secretReport = JSON.parse(rawdata);
+      console.log(secretReport);
     }
     console.log(result.code);
 
