@@ -3,5 +3,5 @@ src/
 gradle/
 # regexes must match the entire path, but can use python's regex syntax for
 # case-insensitive matching and other advanced options
-(?i).*\.(properties|conf|ini|txt|y(a)?ml)$
+(?i).*\.(properties|conf|md|env|ini|txt|y(a)?ml)$
 (.*/)?id_[rd]sa$

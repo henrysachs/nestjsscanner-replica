@@ -3,6 +3,8 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { SCMConsumer } from './scm-info';
+import { DatabaseModule } from './database/database.module';
+import { GitleaksModule } from './gitleaks/gitleaks.module';
 
 @Module({
   imports: [
@@ -18,6 +20,8 @@ import { SCMConsumer } from './scm-info';
       settings: { lockDuration: 10000, lockRenewTime: 10000 },
     }),
     SCMConsumer,
+    DatabaseModule,
+    GitleaksModule,
   ],
   controllers: [AppController],
   providers: [AppService],
